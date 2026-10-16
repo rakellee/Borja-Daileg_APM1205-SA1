@@ -181,6 +181,37 @@ For rendering the R Markdown document, an R Markdown environment with the requir
 
 ## 6. Repository Structure
 
+APM1205-SA1/
+|
+|
+|
+|
+|-- README.md
+|-- data/
+| |-- dataset.csv
+|-- code/
+| |-- SA1
+Linear
+Models.R
+_
+_
+| |-- SA1
+Linear
+_
+_
+Models.py
+|-- output/
+| |-- figures/
+| |-- tables/
+|-- report/
+|-- SA1
+Linear
+Models
+_
+_
+_
+Report.pdf
+
 ---
 
 ## 7. Reproducing the Analysis
