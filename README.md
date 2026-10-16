@@ -184,26 +184,26 @@ For rendering the R Markdown document, an R Markdown environment with the requir
 ```text
 Borja-Daileg_APM1205-SA1/
 .
-├── README.md                                                     # Executive project summary, setup, and key results
+├── README.md
 ├── report/
-│   ├── Borja&Daileg_SA1_Linear_Models_Report.pdf                 # Compiled academic final report PDF
+│   ├── Borja&Daileg_SA1_Linear_Models_Report.pdf
 │
 ├── code/
-│   ├── Borja&Daileg_SA1_Linear_Models.R                          # R script (computes & exports all assets)
-│   └── Borja&Daileg_SA1_Linear_Models_Report.Rmd                 # Full reproducible R Markdown report source
-│   └── Borja&Daileg_SA1_Linear_Models_Report.html                # Full HTML report source
+│   ├── Borja&Daileg_SA1_Linear_Models.R
+│   └── Borja&Daileg_SA1_Linear_Models_Report.Rmd
+│   └── Borja&Daileg_SA1_Linear_Models_Report.html
 │
 ├── data/
-│   └── dataset.csv                                               # Filtered operational dataset (SeoulBikeData.csv)
+│   └── dataset.csv
 │
 └── output/
-    ├── figures/                                                  # Generated high-resolution diagnostic & regression plots
-    │   ├── Figure1_eda_plots.png                                 # Exploratory scatter & seasonal boxplot
-    │   ├── Figure2_slr_fitted.png                                # Simple linear regression fit line
-    │   ├── Figure3_interaction_plot.png                          # Temperature × Holiday moderation plot
-    │   └── Figure4_diagnostics.png                               # 4-panel OLS residual diagnostic plots
+    ├── figures/
+    │   ├── Figure1_eda_plots.png
+    │   ├── Figure2_slr_fitted.png
+    │   ├── Figure3_interaction_plot.png
+    │   └── Figure4_diagnostics.png
     │
-    └── tables/                                                   # Exported CSV data & PNG render tables (1 to 12)
+    └── tables/
         ├── table1_descriptive_stats.csv / .png
         ├── table2_slr_summary.csv / .png
         ├── table3_mlr_coefficients.csv / .png
