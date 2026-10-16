@@ -1,0 +1,5 @@
+"Parameter","Manual_Matrix","Software_lm","Absolute_Difference"
+"Intercept",419.61411,419.61411,"3.26e-10"
+"Temperature",187.16821,187.16821,"9.66e-13"
+"Humidity",21.58641,21.58641,"9.63e-12"
+"Wind Speed",3.56557,3.56557,"1.30e-11"

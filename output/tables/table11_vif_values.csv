@@ -1,0 +1,6 @@
+"Predictor_Variable","VIF","Multicollinearity_Status"
+"Temperature",1.369,"Acceptable (VIF < 5.0)"
+"Humidity",1.622,"Acceptable (VIF < 5.0)"
+"Wind_speed",1.192,"Acceptable (VIF < 5.0)"
+"Solar_Radiation",1.757,"Acceptable (VIF < 5.0)"
+"Rainfall",1.064,"Acceptable (VIF < 5.0)"
