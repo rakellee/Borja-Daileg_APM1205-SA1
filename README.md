@@ -181,6 +181,7 @@ For rendering the R Markdown document, an R Markdown environment with the requir
 
 ## 6. Repository Structure
 
+```text
 Borja-Daileg_APM1205-SA1/
 .
 ├── README.md                                                     # Executive project summary, setup, and key results
@@ -215,6 +216,7 @@ Borja-Daileg_APM1205-SA1/
         ├── table10_diagnostic_tests.csv / .png
         ├── table11_vif_values.csv / .png
         └── table12_final_model.csv / .png
+```
 
 ---
 
