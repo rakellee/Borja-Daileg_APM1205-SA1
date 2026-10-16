@@ -181,36 +181,40 @@ For rendering the R Markdown document, an R Markdown environment with the requir
 
 ## 6. Repository Structure
 
-APM1205-SA1/
-|
-|
-|
-|
-|-- README.md
-|-- data/
-| |-- dataset.csv
-|-- code/
-| |-- SA1
-Linear
-Models.R
-_
-_
-| |-- SA1
-Linear
-_
-_
-Models.py
-|-- output/
-| |-- figures/
-| |-- tables/
-|-- report/
-|-- SA1
-Linear
-Models
-_
-_
-_
-Report.pdf
+Borja-Daileg_APM1205-SA1/
+.
+├── README.md                                                     # Executive project summary, setup, and key results
+├── report/
+│   ├── Borja&Daileg_SA1_Linear_Models_Report.pdf                 # Compiled academic final report PDF
+│
+├── code/
+│   ├── Borja&Daileg_SA1_Linear_Models.R                          # R script (computes & exports all assets)
+│   └── Borja&Daileg_SA1_Linear_Models_Report.Rmd                 # Full reproducible R Markdown report source
+│   └── Borja&Daileg_SA1_Linear_Models_Report.html                # Full HTML report source
+│
+├── data/
+│   └── dataset.csv                                               # Filtered operational dataset (SeoulBikeData.csv)
+│
+└── output/
+    ├── figures/                                                  # Generated high-resolution diagnostic & regression plots
+    │   ├── Figure1_eda_plots.png                                 # Exploratory scatter & seasonal boxplot
+    │   ├── Figure2_slr_fitted.png                                # Simple linear regression fit line
+    │   ├── Figure3_interaction_plot.png                          # Temperature × Holiday moderation plot
+    │   └── Figure4_diagnostics.png                               # 4-panel OLS residual diagnostic plots
+    │
+    └── tables/                                                   # Exported CSV data & PNG render tables (1 to 12)
+        ├── table1_descriptive_stats.csv / .png
+        ├── table2_slr_summary.csv / .png
+        ├── table3_mlr_coefficients.csv / .png
+        ├── table4_mlr_fit_stats.csv / .png
+        ├── table5_mlr_inference.csv / .png
+        ├── table6_matrix_verification.csv / .png
+        ├── table7_dummy_seasons.csv / .png
+        ├── table8_anova_seasons.csv / .png
+        ├── table9_interaction.csv / .png
+        ├── table10_diagnostic_tests.csv / .png
+        ├── table11_vif_values.csv / .png
+        └── table12_final_model.csv / .png
 
 ---
 
